@@ -1,0 +1,22 @@
+/***************
+COMMON
+
+****************/
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/******
+make sure to use the same class name or id in the html text to style in css properly*******/
+
+.font-primary{
+    color:#00abae
+}
+
+.title-icon{
+
+    font-size: 20px;
+    font-weight: bold;
+}
