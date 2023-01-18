@@ -1,5 +1,5 @@
 /***************
-COMMON
+COMMON CODE TO AFFECT ALL ELEMENTS!
 
 ****************/
 
@@ -8,15 +8,102 @@ body{
 
 }
 
-/******
-make sure to use the same class name or id in the html text to style in css properly*******/
-
 .font-primary{
     color:#00abae
 }
+
+
+
+/***********************
+PORTFOLIO TOP LEFT NAV BAR
+************************/
 
 .title-icon{
 
     font-size: 20px;
     font-weight: bold;
 }
+
+
+
+
+/***********************
+
+ABOUT SECTION
+
+************************/
+
+#about {
+    
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 130px;
+    height:125px;
+    margin-bottom: 10px;
+
+}
+
+ #about .name {
+    font-size: 19px;
+    font-weight: medium;
+    color:black;
+ }
+
+ #about .vocation {
+    font-size: 17px;
+    font-weight: medium;
+    color:#A8A8AB;
+    margin-bottom: 10px;
+ }
+
+ #about .skills {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#00abae
+ }
+
+ #about .intro {
+    font-size: 17px;
+    font-weight: medium;
+    color: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+ }
+
+ #about .email {
+    font-size: 14px;
+    font-weight: light;
+    color:black;
+    margin-top: -10px;
+ }
+
+
+ /******************
+
+ <!--ICONS SECTION-->
+
+ *******************/
+
+ #about .icons {
+    margin-top: 10px;
+    font-size: 30px;
+ }
+
+ /***************
+ THIS ADDS STYLE TO ANYTHING IN THE ICONS SECTION WITH AN "A" TAG/ATTRIBUTE
+ ****************/
+
+
+ #about .icons a{
+    color:#000000;
+ }
+
